@@ -15,11 +15,11 @@
 import Foundation
 
 let runAsTest = false
-let day: Int = 1
+let day: Int = 2
 let stage: Int = 2
-let inputFile: String = "1"
+let inputFile: String = "2"
 
-let inputFilename: String = runAsTest ? inputFile : inputFile+"test"
+let inputFilename: String = runAsTest ? inputFile+"test" : inputFile
 
 print("Day: \(day), puzzle: \(stage), input file: \(inputFilename)"+".txt")
 print("")
@@ -31,6 +31,8 @@ var puzzle: Puzzle!
 switch day {
 case 1:
     puzzle = AOC1(inputFile: inputFilename)
+case 2:
+    puzzle = AOC2(inputFile: inputFilename)
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)

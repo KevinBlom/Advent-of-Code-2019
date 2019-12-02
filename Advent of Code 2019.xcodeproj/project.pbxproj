@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A33BFE32395A7A800EE3B52 /* AOC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33BFE22395A7A800EE3B52 /* AOC2.swift */; };
 		0A3F05BE2393E874009EEE44 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F05BD2393E874009EEE44 /* main.swift */; };
 		0A3F05C823940F25009EEE44 /* InputReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F05C723940F25009EEE44 /* InputReader.swift */; };
 		0A3F05CD23940FB0009EEE44 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F05CC23940FB0009EEE44 /* Puzzle.swift */; };
@@ -26,6 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A33BFE22395A7A800EE3B52 /* AOC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2.swift; sourceTree = "<group>"; };
+		0A33BFE42395A7F400EE3B52 /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		0A33BFE52395A7F400EE3B52 /* 2test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2test.txt; sourceTree = "<group>"; };
 		0A3F05BA2393E874009EEE44 /* Advent of Code 2019 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code 2019"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3F05BD2393E874009EEE44 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A3F05C723940F25009EEE44 /* InputReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputReader.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 		0A3F05C923940F36009EEE44 /* Input */ = {
 			isa = PBXGroup;
 			children = (
+				0A33BFE42395A7F400EE3B52 /* 2.txt */,
+				0A33BFE52395A7F400EE3B52 /* 2test.txt */,
 				0A3F05CA23940F40009EEE44 /* 1.txt */,
 				0A3F05D123941855009EEE44 /* 1test.txt */,
 			);
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3F05CF23940FD4009EEE44 /* AOC1.swift */,
+				0A33BFE22395A7A800EE3B52 /* AOC2.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33BFE32395A7A800EE3B52 /* AOC2.swift in Sources */,
 				0A3F05CD23940FB0009EEE44 /* Puzzle.swift in Sources */,
 				0A3F05D023940FD4009EEE44 /* AOC1.swift in Sources */,
 				0A3F05BE2393E874009EEE44 /* main.swift in Sources */,
