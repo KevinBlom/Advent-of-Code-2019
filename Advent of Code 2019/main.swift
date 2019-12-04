@@ -16,7 +16,7 @@ import Foundation
 
 let runAsTest = false
 let day: Int = 4
-let stage: Int = 1
+let stage: Int = 2
 let inputFile: String = "4"
 
 let inputFilename: String = runAsTest ? inputFile+"test" : inputFile

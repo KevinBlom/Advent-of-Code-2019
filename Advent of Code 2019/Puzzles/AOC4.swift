@@ -31,7 +31,25 @@ class AOC4: Puzzle {
     }
     
     func runPuzzle2() -> String {
-        return "No answer"
+        var correctPasswords: [Int] = []
+        
+        typealias Rule = (String) -> Bool
+        let containsOnlyTwoOfAnyCharacter: Rule = {
+            $0.reduce(into: [:]) { counts, word in
+                counts[word, default: 0] += 1
+            }.values.contains(2)
+        }
+        
+        for password in startPassword...endPassword {
+            
+            if (password.containsSimilarAdjecentDigits
+                && password.isNeverDecreasing
+                && containsOnlyTwoOfAnyCharacter(String(password))) {
+                correctPasswords.append(password)
+            }
+        }
+        
+        return String(correctPasswords.count)
     }
     
     func containsSimilarAdjecentDigits(_ password: Int) -> Bool {
