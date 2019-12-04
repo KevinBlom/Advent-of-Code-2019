@@ -69,7 +69,7 @@ class AOC2: Puzzle {
         
         // From a single string, create an array of opcode numbers so we can work on it using indices
         var opcodeArray = opcodes.split(separator: ",").map { Int($0)! }
-        var opcodeArrayOriginal = opcodeArray
+        let opcodeArrayOriginal = opcodeArray
         print ("\(opcodeArray.count) lines read")
         
         // Opcode read position. Shifts 4 after every succesful instruction.

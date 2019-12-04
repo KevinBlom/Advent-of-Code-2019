@@ -12,6 +12,7 @@
 		0A3F05C823940F25009EEE44 /* InputReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F05C723940F25009EEE44 /* InputReader.swift */; };
 		0A3F05CD23940FB0009EEE44 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F05CC23940FB0009EEE44 /* Puzzle.swift */; };
 		0A3F05D023940FD4009EEE44 /* AOC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F05CF23940FD4009EEE44 /* AOC1.swift */; };
+		0ABD524B2396A218000C0D3D /* AOC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD524A2396A218000C0D3D /* AOC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,9 @@
 		0A3F05CC23940FB0009EEE44 /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		0A3F05CF23940FD4009EEE44 /* AOC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AOC1.swift; sourceTree = "<group>"; };
 		0A3F05D123941855009EEE44 /* 1test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1test.txt; sourceTree = "<group>"; };
+		0ABD524A2396A218000C0D3D /* AOC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC3.swift; sourceTree = "<group>"; };
+		0ABD524C2396A46A000C0D3D /* 3test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3test.txt; sourceTree = "<group>"; };
+		0ABD524D2396A46B000C0D3D /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		0A3F05C923940F36009EEE44 /* Input */ = {
 			isa = PBXGroup;
 			children = (
+				0ABD524D2396A46B000C0D3D /* 3.txt */,
+				0ABD524C2396A46A000C0D3D /* 3test.txt */,
 				0A33BFE42395A7F400EE3B52 /* 2.txt */,
 				0A33BFE52395A7F400EE3B52 /* 2test.txt */,
 				0A3F05CA23940F40009EEE44 /* 1.txt */,
@@ -102,6 +108,7 @@
 			children = (
 				0A3F05CF23940FD4009EEE44 /* AOC1.swift */,
 				0A33BFE22395A7A800EE3B52 /* AOC2.swift */,
+				0ABD524A2396A218000C0D3D /* AOC3.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -167,6 +174,7 @@
 				0A33BFE32395A7A800EE3B52 /* AOC2.swift in Sources */,
 				0A3F05CD23940FB0009EEE44 /* Puzzle.swift in Sources */,
 				0A3F05D023940FD4009EEE44 /* AOC1.swift in Sources */,
+				0ABD524B2396A218000C0D3D /* AOC3.swift in Sources */,
 				0A3F05BE2393E874009EEE44 /* main.swift in Sources */,
 				0A3F05C823940F25009EEE44 /* InputReader.swift in Sources */,
 			);

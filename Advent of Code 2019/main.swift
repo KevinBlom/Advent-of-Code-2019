@@ -15,9 +15,9 @@
 import Foundation
 
 let runAsTest = false
-let day: Int = 2
+let day: Int = 3
 let stage: Int = 2
-let inputFile: String = "2"
+let inputFile: String = "3"
 
 let inputFilename: String = runAsTest ? inputFile+"test" : inputFile
 
@@ -33,6 +33,8 @@ case 1:
     puzzle = AOC1(inputFile: inputFilename)
 case 2:
     puzzle = AOC2(inputFile: inputFilename)
+case 3:
+    puzzle = AOC3(inputFile: inputFilename)
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)
